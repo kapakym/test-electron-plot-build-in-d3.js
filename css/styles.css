@@ -1,0 +1,49 @@
+
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    
+}
+div.main {
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    height: 98vh;
+    border: 1px solid #ADADAD;
+}
+
+
+div.content {
+    overflow: auto;
+    /* flex: 1 0 auto; */
+    /* flex-grow: 1; */
+    flex: 1;
+    background-color:cadetblue;
+}
+
+svg path{
+    stroke: steelblue;
+    fill: none;
+    stroke-width: 2;
+}
+
+
+div.menu {
+    background-color: blue;
+    color: white;
+    height: 30px;
+}
+
+.canvas {
+    /* flex: 1 1 auto;
+    /* display: flex; */
+	display: block;
+    height: 100%;
+    width: 100%;
+    /* color: coral;
+    background-color: chartreuse;
+    display: flex;
+      align-content: center;
+      justify-content: center; */ 
+}

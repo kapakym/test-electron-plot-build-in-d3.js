@@ -1,0 +1,20 @@
+{
+  "name": "routie_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3",
+    "three": "^0.115.0",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}
